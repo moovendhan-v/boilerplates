@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boilerplate Code Repository</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #3d374b;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    color: #6a79ff;
+}
+
+main {
+    padding: 20px;
+}
+
+.boilerplates ul {
+    list-style: none;
+    padding: 0;
+}
+
+.boilerplates li {
+    background: #ffffff;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.boilerplates a {
+    text-decoration: none;
+    color: #828aff;
+    font-weight: bold;
+}
+
+.boilerplates p {
+    margin: 5px 0 0;
+    color: #666666;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #3b3749;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Boilerplate Code Repository</h1>
+        <p>This repository contains various boilerplate codes for educational purposes.</p>
+    </header>
+    
+    <main>
+        <section class="boilerplates">
+            <h2>Available Boilerplates</h2>
+            <ul>
+                <li>
+                    <a href="./xss/index.html">XSS</a>
+                    <p>XSS get all the detailed informations from the browser and send it to the discord webhooks</p>
+                </li>
+            </ul>
+        </section>
+        
+        <section class="usage">
+            <h2>How to Use</h2>
+            <p>To use the boilerplate code, click on the links above to navigate to the respective repositories.</p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Your Name. All rights reserved.</p>
+        <p>This site is for educational purposes only. Use responsibly.</p>
+    </footer>
+    <script>
+        // Dynamically set the current year
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
