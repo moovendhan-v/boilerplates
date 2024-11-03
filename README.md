@@ -16,8 +16,8 @@ To download boilerlates script using `wget`, follow the instructions below:
 ## Command to Download
 
 ```bash
-wget https://raw.githubusercontent.com/moovendhan-v/boilerplates/main/shell/install-redis.sh
+wget https://raw.githubusercontent.com/moovendhan-v/boilerplates/main/boilerplates/shell/install-redis.sh
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/moovendhan-v/boilerplates/main/shell/docker/install-postgress.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/moovendhan-v/boilerplates/main/boilerplates/shell/docker/install-postgress.sh | sudo bash
 
